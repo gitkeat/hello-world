@@ -1,4 +1,4 @@
 steps:
   - label: "Example Test"
-    command: echo "Hello! $pwd $PATH"
+    command: echo "Hello! $pwd ||||||| $PATH"
     
