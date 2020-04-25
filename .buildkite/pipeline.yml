@@ -1,4 +1,9 @@
 steps:
-  - label: "Example Test"
+  - label: "Run A"
     command: echo "Hello! $pwd ||||||| $PATH"
     
+  wait
+
+  - label: "Run B"
+    command: ./script.sh
+    if: build.message !~ /Hello World/
