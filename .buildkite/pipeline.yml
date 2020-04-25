@@ -2,7 +2,7 @@ steps:
   - label: "Run A"
     command: echo "Hello! $pwd ||||||| $PATH"
     
-  wait
+  - wait
 
   - label: "Run B"
     command: ./script.sh
